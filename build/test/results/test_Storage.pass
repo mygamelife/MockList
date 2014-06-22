@@ -1,0 +1,22 @@
+---
+:source:
+  :path: test
+  :file: test_Storage.c
+:successes:
+- :test: test_store_give_1_2_3_should_add_1_2_3
+  :line: 20
+  :message: ''
+- :test: test_retrieve_given_6_7_8_should_retrieve_6_7_8
+  :line: 35
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 2
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'Stored Integers : 6 '
+- 'Stored Integers : 7 '
+- 'Stored Integers : 8 '

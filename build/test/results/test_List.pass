@@ -1,0 +1,28 @@
+---
+:source:
+  :path: test
+  :file: test_List.c
+:successes:
+- :test: test_ListNew
+  :line: 18
+  :message: ''
+- :test: test_listAdd_given_4_2_should_add_4_2
+  :line: 25
+  :message: ''
+- :test: test_listIsFull_given_6_7_8_9_10_should_throw_exception
+  :line: 35
+  :message: ''
+- :test: test_listRemove_given_11_12_should_remove_11_and_remain_1_size
+  :line: 57
+  :message: ''
+- :test: test_listRemove_given_13_14_should_Remove_13_14_and_throw_exception
+  :line: 66
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout: []
